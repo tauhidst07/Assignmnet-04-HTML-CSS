@@ -1,0 +1,41 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+     
+} 
+.container{
+    width: 50vw; 
+    height: 500px; 
+    margin: auto; 
+    background-color: rgb(127,255,213); 
+    border-radius: 15px; 
+    text-align: center;
+}  
+
+@media screen and (max-width:1440px){
+    .container{
+        background-color:rgb(32,139,33);
+    }
+} 
+ 
+@media screen and (max-width:1024px){
+     
+    .container{
+        background-color:rgb(177,136,47);
+    }
+} 
+ 
+
+@media screen and (max-width:768px){
+     
+    .container{
+        background-color:rgb(117,251,253);
+    } 
+}  
+@media screen and (max-width:425px){
+     
+    .container{
+        background-color:rgb(115,28,37 );
+    } 
+} 
